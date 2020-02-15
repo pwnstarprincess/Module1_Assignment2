@@ -74,10 +74,10 @@ Public Class Form1
         ''convert total cost and format appropritately
         totalBill = total.ToString("0.00")
         ''output and format customer name, labor cost, supply cost, and total bill
-        TotalOutputBox.AppendText("Customer:  " + customerName & Environment.NewLine)
-        TotalOutputBox.AppendText("LaborCost:  " + "$" + totalLabor & Environment.NewLine)
-        TotalOutputBox.AppendText("Parts Cost:  " + "$" + totalSupplies & Environment.NewLine)
-        TotalOutputBox.AppendText("Total Cost:  " + "$" + totalBill & Environment.NewLine)
+        TotalOutputBox.AppendText("Customer:    " + customerName & Environment.NewLine)
+        TotalOutputBox.AppendText("Labor Cost:  " + "$" + totalLabor & Environment.NewLine)
+        TotalOutputBox.AppendText("Parts Cost:  " + " $" + totalSupplies & Environment.NewLine)
+        TotalOutputBox.AppendText("Total Cost:  " + " $" + totalBill & Environment.NewLine)
 
     End Sub
 End Class
