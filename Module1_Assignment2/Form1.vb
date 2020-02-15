@@ -1,4 +1,7 @@
 ﻿''Jennifer Pezzulo
+''February 15, 2020
+''Module 1 Assignment 2
+''CSC220C00 Intro to MS Visual Basic.NET
 
 Public Class Form1
     Private Sub Customer_TextChanged(sender As Object, e As EventArgs) Handles CustomerBox.TextChanged
